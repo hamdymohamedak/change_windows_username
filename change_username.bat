@@ -1,5 +1,6 @@
 @echo off
 :: Check if the script is running as Administrator
+color 2
 openfiles >nul 2>&1
 if %errorlevel% neq 0 (
     echo This script must be run as Administrator.
